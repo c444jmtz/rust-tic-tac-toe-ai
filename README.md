@@ -1,88 +1,44 @@
-\# Rust Tic-Tac-Toe AI
 
+# Rust Tic-Tac-Toe AI
 
+A collaborative Rust project developed for Boston University's DS210 course.
 
-A collaborative Rust project implementing AI agents for 3×3 and 5×5 Tic-Tac-Toe, developed as part of Boston University's DS210 coursework.
+## Overview
 
+This project explores artificial intelligence for 3x3 and 5x5 Tic-Tac-Toe using adversarial search algorithms.
 
+## Key Features
 
-\## Project Overview
+- **Minimax:** Evaluates possible moves and opponent responses.
+- **Alpha-beta pruning:** Reduces unnecessary exploration of the game tree.
+- **Heuristic evaluation:** Estimates the strength of board positions.
+- **Move ordering:** Prioritizes promising moves to improve search efficiency.
+- **Time management:** Limits computation time during gameplay.
 
+## Technologies
 
+- Rust
+- Cargo
+- Game-tree search algorithms
 
-This project explores adversarial search algorithms and strategic decision-making in turn-based games.
+## Project Structure
 
+- `tic_tac_toe_3x3/` - 3x3 Tic-Tac-Toe implementation
+- `tic_tac_toe_5x5/` - 5x5 Tic-Tac-Toe AI implementation
+- `tic_tac_toe_stencil/` - Supporting course framework
 
+## Running Tests
 
-The implementations explore:
-
-
-
-\- \*\*Minimax search:\*\* Evaluating possible moves by considering an opponent's responses.
-
-\- \*\*Alpha-beta pruning:\*\* Reducing unnecessary exploration of the game tree.
-
-\- \*\*Heuristic evaluation:\*\* Estimating the quality of board positions when exhaustive search is impractical.
-
-\- \*\*Move ordering:\*\* Prioritizing promising moves to improve search efficiency.
-
-\- \*\*Time-constrained decision-making:\*\* Selecting moves within a limited computation budget.
-
-
-
-\## Technologies
-
-
-
-\- Rust
-
-\- Cargo
-
-\- Game-tree search algorithms
-
-
-
-\## Project Structure
-
-
-
-\- `tic\\\_tac\\\_toe\\\_3x3/` — 3×3 Tic-Tac-Toe implementation
-
-\- `tic\\\_tac\\\_toe\\\_5x5/` — 5×5 Tic-Tac-Toe AI
-
-\- `tic\\\_tac\\\_toe\\\_stencil/` — Supporting course-provided framework
-
-
-
-\## Running the Project
-
-
-
-Install Rust and Cargo, then from the repository root run:
-
-
+Install Rust and Cargo, then run the following command from the project directory:
 
 ```bash
-
 cargo test
-
 ```
 
+## Contributors
 
+- [Christopher Martinez](https://github.com/c444jmtz)
+- [Rishi Vaidya](https://github.com/rishiivaidya)
 
-The project is based on a course framework, so some components may be intended for automated testing rather than interactive gameplay.
-
-
-
-\## Contributors
-
-
-
-\- \[Christopher Martinez](https://github.com/c444jmtz)
-
-\- \[Rishi Vaidya](https://github.com/rishiivaidya)
-
-
-
-Developed collaboratively for Boston University's DS210 coursework. The project includes course-provided supporting code alongside the team's implementations.
+Developed collaboratively for Boston University's DS210 course. The repository includes course-provided supporting code alongside student implementations.
 
